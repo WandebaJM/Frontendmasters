@@ -1,0 +1,204 @@
+
+/* .navlinks{
+
+} */
+
+    *{
+        border: 0;
+        margin: 0;
+    }
+
+    .browndiv{
+        display: flex;
+        justify-content: space-between;
+        background-color:#291309 ;
+        padding: 10px 130px;
+        border-bottom: 20px solid orangered;
+    }
+
+    .browndiv img{
+        width: 270px;
+        height: 45px;
+    }
+
+    .front-end-footer{
+        display: flex;
+    }
+
+    ul{
+        display: flex;
+        list-style-type: none; 
+        padding: 15px 0px 0px 15px;           
+    }
+
+    li{
+        padding-right: 25px;
+    }
+
+    li a{
+        text-decoration: none;
+        font-size: 20px;
+        color: rgb(163, 151, 151);
+    }
+    /* TRBL */
+
+    li button{
+        background-color: rgb(243, 106, 82);
+        padding: 10px 25px 10px 25px;
+        border-radius: 60px;
+        border: none;
+    }
+
+    .frontendmaster{
+        color: white;
+    }
+
+    .loginform{
+        text-align: justify;
+        padding: 70px 100px;
+        background-color: #201f1f;
+        color: white;
+        padding-top: 30px;
+    }
+
+    .box{
+        font-size: 18px;
+        /* padding-left: 30px; */
+        /* padding-right: 0px; */
+        margin-left: 250px;
+        margin-right: 3px;
+    }
+
+    .login{
+        font-size: 20px;
+        color: white;
+    }
+
+    .password{
+        margin: 0 0 0 20px;
+        color: tomato;
+        text-decoration: underline;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .button{
+        background-color: red;
+        border-radius: 30px;
+        padding: 14px 24px;
+    }
+
+    input[type=box], input[type=number], input[type=password], input[type=text]{
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: inset 0 1px 3px #add;
+        color: #222;
+        display: block;
+        font-family: inherit;
+        padding: 8px 10px;
+        width: 60%;
+        font-size: 20px;
+    }
+
+    label{
+        display: inline-block;
+        margin: 0 0 5px;
+        cursor: default;
+    }
+
+   footer{
+        background-color: #0e0d0d;
+        display: block;
+        padding: 50px 130px;
+   }
+
+   .footer img{
+       width: 250px;
+       height: 40px;
+   }
+
+    .store{
+        border: 1px solid white;
+        border-radius: 5px;
+    }
+
+    .play{
+        display: inline-block;
+        border: 1px solid white;
+        border-radius: 5px;
+    }
+
+    .proudterms{
+        display: flex;
+        color: white;
+        justify-content: space-between;
+        font-family: arial;
+        font-size: 15px;
+        color: rgb(170, 167, 167);
+    }
+
+    .support{
+        color: tomato;
+        text-decoration: none;
+    }
+
+    .mail{
+        padding-top: 25px;
+        padding-left: 685px;
+    }
+
+    span{
+        color: rgb(167, 164, 164) ;
+        display: flex;
+    }
+
+    .join-now{
+        color: white;
+    }
+
+    .apps img{
+        margin: 0 15px;
+    }
+
+    .social-twitter {
+        color: rgba(13, 115, 233, 0.667);
+        font-size: 35px;
+        margin: 0 3px;
+    }
+
+    .social-twitter:hover{
+        color: #fff;
+    }
+
+    .social-linkedin {
+        color: rgba(39, 136, 247, 0.667);
+        font-size: 35px;
+        margin: 0 3px;
+    }
+
+    .social-linkedin:hover{
+        color: rgb(84, 245, 79);
+    }
+
+    .social-facebook {
+        color: rgba(12, 120, 243, 0.667);
+        font-size: 35px;
+        margin: 0 3px;
+    }
+
+    .social-facebook:hover{
+        color: rgb(231, 43, 248);
+    }
+
+    .social-instagram {
+        color: rgba(245, 96, 188, 0.667);
+        font-size: 35px;
+        margin: 0 3px;
+    }
+
+    .social-instagram:hover{
+        color: rgb(255, 255, 255);
+    }
+
+    .social-icons {
+        display: flex;
+    }
